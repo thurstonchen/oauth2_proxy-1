@@ -7,7 +7,7 @@ ENV REFRESHED_AT 2019-01-14
 # Install CA certificates
 RUN apk add --no-cache --virtual=build-dependencies ca-certificates
 
-ENV OAUTH2_PROXY_VERSION 2.2.1.1-alpha
+ENV OAUTH2_PROXY_VERSION 2.2.1.1
 
 # Checkout bitly's latest google-auth-proxy code from Github
 RUN wget https://github.com/thurstonchen/oauth2_proxy/releases/download/V2.2.1.1-alpha/oauth2_proxy-2.2.1.1-alpha.linux-amd64.go1.11.4.tar.gz -O /tmp/oauth2_proxy.tar.gz \
