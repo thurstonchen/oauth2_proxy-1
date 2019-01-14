@@ -2,7 +2,7 @@ FROM alpine:3.8
 LABEL maintainer="Thurston Chen <thurston.chen@gmail.com>"
 
 # When this Dockerfile was last refreshed (year/month/day)
-ENV REFRESHED_AT 2018-07-25
+ENV REFRESHED_AT 2019-01-14
 
 # Install CA certificates
 RUN apk add --no-cache --virtual=build-dependencies ca-certificates
